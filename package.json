@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Auth module example",
+  "main": "y",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "start test",
+    "dev": "nodemon ./app.js"
+  },
+  "author": "jyotishmoy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "express-validator": "^6.14.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
